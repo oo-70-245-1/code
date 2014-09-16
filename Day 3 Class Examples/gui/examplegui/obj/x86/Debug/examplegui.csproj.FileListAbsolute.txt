@@ -1,0 +1,7 @@
+c:\users\nathan\documents\visual studio 2010\Projects\examplegui\examplegui\bin\Debug\examplegui.exe
+c:\users\nathan\documents\visual studio 2010\Projects\examplegui\examplegui\bin\Debug\examplegui.pdb
+c:\users\nathan\documents\visual studio 2010\Projects\examplegui\examplegui\obj\x86\Debug\examplegui.Form1.resources
+c:\users\nathan\documents\visual studio 2010\Projects\examplegui\examplegui\obj\x86\Debug\examplegui.Properties.Resources.resources
+c:\users\nathan\documents\visual studio 2010\Projects\examplegui\examplegui\obj\x86\Debug\examplegui.csproj.GenerateResource.Cache
+c:\users\nathan\documents\visual studio 2010\Projects\examplegui\examplegui\obj\x86\Debug\examplegui.exe
+c:\users\nathan\documents\visual studio 2010\Projects\examplegui\examplegui\obj\x86\Debug\examplegui.pdb
