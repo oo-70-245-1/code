@@ -29,13 +29,21 @@ abstract class Enemy {
 // Creating 2 enemies
 // Note how they implemented the abstract methods defined in the Enemy class
 class Paladin : Enemy {
-	public void Speak() { //do something }
-	public void Attack(Player p) { //do something }
+	public void Speak() { 
+		//do something 
+	}
+	public void Attack(Player p) { 
+		//do something 
+	}
 }
 
 class Wizard : Enemy {
-	public void Speak() { // do something }
-	public void Attack(Player p) { //do something }
+	public void Speak() { 
+		// do something 
+	}
+	public void Attack(Player p) { 
+		//do something 
+	}
 }
 
 // Defining a player class per the homework
@@ -49,5 +57,7 @@ class Player {
 		set { _health = value; }
 	}
 	
-	public void Attack(Enemy e) { // do something }
+	public void Attack(Enemy e) { 
+		// do something 
+	}
 }
