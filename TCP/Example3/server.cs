@@ -26,6 +26,9 @@ namespace ClientExample11
                 {
                     Thread t = new Thread(handleConnection);
                     Socket client = server.AcceptSocket();
+					// Send the socket to the thread 
+					// let the thread deal with incoming messages
+					// loop and accept the next connection and repeat
                     t.Start(client);
 
                 }
@@ -39,6 +42,7 @@ namespace ClientExample11
         }
         static void handleConnection(object socket)
         {
+			// unbox/cast socket object type to a Socket type
             Socket client = (Socket)socket;
 
             Console.WriteLine("Connection accepted from {0}", client.RemoteEndPoint);

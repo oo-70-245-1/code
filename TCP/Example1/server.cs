@@ -31,9 +31,9 @@ namespace PongExample1
         public Server(IPAddress ip, int port = 5000)
         {
             server = new TcpListener(ip, port);
-            server.Start();
+            server.Start(); // Start listening on given IP and port
             Console.WriteLine("Listening on {0} on port {1}", ip.ToString(), port);
-            s = server.AcceptSocket();
+            s = server.AcceptSocket(); // Accept the connection as a socket into s
         }
 
         public Server(int port = 5000) : this(IPAddress.Loopback, port) { }
@@ -44,10 +44,10 @@ namespace PongExample1
             byte[] buffer = new byte[1024];
             byte[] pong = "pong".ToByteArray();
             
-            int k = s.Receive(buffer);
+            int k = s.Receive(buffer); // receive data from client
             Console.WriteLine("Client sent - {0} - {1}", buffer.GetString(k), count);
             Thread.Sleep(2000);
-            s.Send(pong);
+            s.Send(pong); // send data to client
             Console.WriteLine("Sent to client - {0} - {1}", pong.GetString(pong.Length), count);
             count++;
             return true;

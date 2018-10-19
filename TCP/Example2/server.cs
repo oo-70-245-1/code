@@ -37,6 +37,9 @@ namespace PongExample1
             while (true)
             {
                 s = server.AcceptSocket();
+				// spin up a new thread that handles
+				// incoming data from that client
+				// then loop to accept another connection
                 Thread t = new Thread(Respond);
                 t.Start(s);
             }
