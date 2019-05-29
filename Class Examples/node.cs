@@ -56,6 +56,7 @@ namespace generics
         }
         static void Main(string[] args)
         {
+			// Typical binary tree example
             Node n = new Node();
             n.addLeft(4).addLeft(10).addLeft(7);
             n.addRight(5).addRight(2);

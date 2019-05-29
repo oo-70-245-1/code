@@ -19,6 +19,7 @@ namespace example7
 
         class Ex2 : Example
         {
+			// inheriting and overriding a method
             public override void func()
             {
                 base.func(x);
@@ -27,6 +28,7 @@ namespace example7
 
         static void Main(string[] args)
         {
+			// Example of modifying member variables
             Example e = new Example();
             e.test2 = 2;
         }

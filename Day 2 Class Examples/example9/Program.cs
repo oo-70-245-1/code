@@ -26,6 +26,7 @@ namespace example9
     {
         static void Main(string[] args)
         {
+			// example showing destructors vs dispose
             {
                 DestructTest t2 = new DestructTest();
             }

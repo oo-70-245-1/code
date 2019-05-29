@@ -57,6 +57,7 @@ namespace generics
         }
         static void Main(string[] args)
         {
+			// Binary tree but with any type for the object
             Node<int> n = new Node<int>();
             n.addLeft(4).addLeft(10).addLeft(7);
             n.addRight(5).addRight(2);

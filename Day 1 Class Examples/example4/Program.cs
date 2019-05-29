@@ -25,6 +25,7 @@ namespace example4
             int n2;
             int n1;
             Console.WriteLine("Please enter a number and a power:");
+			// Using console input and function calls to implment power
             n1 = Int32.Parse(Console.ReadLine());
             n2 = Int32.Parse(Console.ReadLine());
             Math m = new Math();

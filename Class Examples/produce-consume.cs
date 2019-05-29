@@ -25,6 +25,7 @@ namespace mutexexample2
 
         static void Main(string[] args)
         {
+			// Creating 2 threads with a simple race condition
             Thread t1 = new Thread(new ThreadStart(produce));
             t1.Start();
 

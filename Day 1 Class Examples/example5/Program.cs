@@ -16,6 +16,7 @@ namespace example5
         }
         static void Main(string[] args)
         {
+			// Example of recursive function
             Console.WriteLine("{0}", fact(3));
         }
     }

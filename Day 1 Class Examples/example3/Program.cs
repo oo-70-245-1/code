@@ -12,6 +12,7 @@ namespace example3
             int tal = 0;
             string tmp;
             Console.WriteLine("Please enter 5 numbers:");
+			// Simple for loop
             for (int i = 0; i < 5; i++)
             {
                 tmp = Console.ReadLine();

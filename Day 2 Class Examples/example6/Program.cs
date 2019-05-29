@@ -36,7 +36,7 @@ namespace example6
 
         static void Main(string[] args)
         {
-            internalexamples.
+			// Different examples of function calls
             int x = 4;
             f1(x);
             Console.WriteLine(x);

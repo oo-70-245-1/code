@@ -22,14 +22,21 @@ namespace mutexexample2
 
         static public void consume()
         {
+			// Wait for the lock to be available
+			// If no other thread has it locked then it is
+			// by default available
             m.WaitOne();
             for (int i = 0; i < LOOP; i++)
                 gvar--;
+			
+			// release/unlock the mutex lock
             m.ReleaseMutex();
         }
 
         static void Main(string[] args)
         {
+			// Example using a mutex lock
+			// Create 2 threads that use the same mutex lock variable
             Thread t1 = new Thread(new ThreadStart(produce));
             t1.Start();
 
