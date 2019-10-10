@@ -1,0 +1,7 @@
+c:\users\cod_user\source\repos\tcpMultiConnections\tcpMultiConnections\bin\Debug\tcpMultiConnections.exe.config
+c:\users\cod_user\source\repos\tcpMultiConnections\tcpMultiConnections\bin\Debug\tcpMultiConnections.exe
+c:\users\cod_user\source\repos\tcpMultiConnections\tcpMultiConnections\bin\Debug\tcpMultiConnections.pdb
+c:\users\cod_user\source\repos\tcpMultiConnections\tcpMultiConnections\obj\Debug\tcpMultiConnections.csprojAssemblyReference.cache
+c:\users\cod_user\source\repos\tcpMultiConnections\tcpMultiConnections\obj\Debug\tcpMultiConnections.csproj.CoreCompileInputs.cache
+c:\users\cod_user\source\repos\tcpMultiConnections\tcpMultiConnections\obj\Debug\tcpMultiConnections.exe
+c:\users\cod_user\source\repos\tcpMultiConnections\tcpMultiConnections\obj\Debug\tcpMultiConnections.pdb

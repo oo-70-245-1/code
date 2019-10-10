@@ -1,0 +1,7 @@
+C:\Users\COD_User\source\repos\tcpServer\tcpServer\bin\Debug\tcpServer.exe.config
+C:\Users\COD_User\source\repos\tcpServer\tcpServer\bin\Debug\tcpServer.exe
+C:\Users\COD_User\source\repos\tcpServer\tcpServer\bin\Debug\tcpServer.pdb
+C:\Users\COD_User\source\repos\tcpServer\tcpServer\obj\Debug\tcpServer.csprojAssemblyReference.cache
+C:\Users\COD_User\source\repos\tcpServer\tcpServer\obj\Debug\tcpServer.csproj.CoreCompileInputs.cache
+C:\Users\COD_User\source\repos\tcpServer\tcpServer\obj\Debug\tcpServer.exe
+C:\Users\COD_User\source\repos\tcpServer\tcpServer\obj\Debug\tcpServer.pdb
