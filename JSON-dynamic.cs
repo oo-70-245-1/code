@@ -449,13 +449,13 @@ namespace Procurios.Public
             {
                 success = SerializeString((string)value, builder);
             }
-            else if (value is Hashtable)
+            else if (value is Dictionary<dynamic, dynamic>)
             {
-                success = SerializeObject((Hashtable)value, builder);
+                success = SerializeObject((Dictionary<dynamic, dynamic>)value, builder);
             }
-            else if (value is ArrayList)
+            else if (value is List<dynamic>)
             {
-                success = SerializeArray((ArrayList)value, builder);
+                success = SerializeArray((List<dynamic>)value, builder);
             }
             else if ((value is Boolean) && ((Boolean)value == true))
             {
@@ -481,7 +481,7 @@ namespace Procurios.Public
             return success;
         }
 
-        protected static bool SerializeObject(Hashtable anObject, StringBuilder builder)
+        protected static bool SerializeObject(Dictionary<dynamic, dynamic> anObject, StringBuilder builder)
         {
             builder.Append("{");
 
@@ -511,7 +511,7 @@ namespace Procurios.Public
             return true;
         }
 
-        protected static bool SerializeArray(ArrayList anArray, StringBuilder builder)
+        protected static bool SerializeArray(List<dynamic> anArray, StringBuilder builder)
         {
             builder.Append("[");
 
