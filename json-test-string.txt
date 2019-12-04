@@ -1,0 +1,13 @@
+{
+	"firstName" : "Natalie",
+	"isAlive": true,
+	"age": 10245,
+	"planet" : {
+		"Gallifrey": "10-0-11-00:02"
+	},
+	"servers": [
+		"helios",
+		"xerxes",
+		"mail1"
+	]
+}
